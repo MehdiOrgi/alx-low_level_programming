@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
- * main - main block
- * Description: Prints the alphabet
- * Return: 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -17,3 +18,4 @@ int main(void)
 
     return (0);
 }
+
