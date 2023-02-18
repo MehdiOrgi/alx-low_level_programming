@@ -1,24 +1,25 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - Entry point
  *
- * Description: Prints all single digit numbers of base 10 starting
- * from 0, followed by a new line, using putchar and without char variables
+ * Description: Prints all single digit numbers of base 10
+ * starting from 0, followed by a new line.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-        int num = 0;
+    int num = 0;
 
-        while (num < 10)
-        {
-                putchar(num + '0');
-                num++;
-        }
+    while (num < 10)
+    {
+        putchar(num + '0');
+        num++;
+    }
 
-        putchar('\n');
+    putchar('\n');
 
-        return (0);
+    return (0);
 }
+
