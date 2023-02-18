@@ -4,7 +4,10 @@
 
 /**
  * main - main block
- * Description: Verify the last digit of a random number, compares it and print result
+ *
+ * Description: Verify the last digit of a random number,
+ *              compares it and print result
+ *
  * Return: 0
  */
 int main(void)
