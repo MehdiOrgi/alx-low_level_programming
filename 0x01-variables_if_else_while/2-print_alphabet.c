@@ -1,21 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - prints the lowercase alphabet using putchar
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-    char c;
+	char c;
 
-    for (c = 'a'; c <= 'z'; c++)
-    {
-        putchar(c);
-    }
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
 
-    putchar('\n');
-
-    return (0);
+	return (0);
 }
-
