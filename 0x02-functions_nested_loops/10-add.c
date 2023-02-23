@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * add - Adds two integers
  * @a: First integer to be added
