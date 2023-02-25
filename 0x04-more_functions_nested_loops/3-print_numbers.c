@@ -1,16 +1,19 @@
-#include "main.h"
+#include "imain.h"
+
 /**
-*print_numbers - print 0123456789
-* 
-*Return: void
-*/
+ * print_numbers - print  0 - 9
+ *
+ * Return: void
+ */
+
 void print_numbers(void)
 {
-	char c;
+	char a = 0;
 
-	for (c = '0'; c <= '9'; c++)
+	while (a <= 9)
 	{
-	_putchar(c);
+		_putchar(a + '0');
+		a++;
 	}
 	_putchar('\n');
 }
