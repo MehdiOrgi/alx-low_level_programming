@@ -1,16 +1,13 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * fizz_buzz - Prints numbers from 1 to 100, replacing multiples of 3 with Fizz,
+ *             multiples of 5 with Buzz, and multiples of both with FizzBuzz.
+ *             Each number or word is separated by a space.
  *
- * Description: Prints the numbers from 1 to 100, but for multiples of three
- *              print Fizz instead of the number and for the multiples of five
- *              print Buzz. For numbers which are multiples of both three and
- *              five print FizzBuzz.
- *
- * Return: Always 0 (Success)
+ * Return: void
  */
-int main(void)
+void fizz_buzz(void)
 {
     int i;
 
@@ -26,7 +23,4 @@ int main(void)
             printf("%d ", i);
     }
     printf("\n");
-
-    return (0);
 }
-
