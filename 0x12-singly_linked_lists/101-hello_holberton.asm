@@ -1,13 +1,13 @@
-    .global main
-    .extern printf
+global    main
+extern    printf
 
 main:
-    mov edi, format
-    xor eax, eax
-    call printf
-    mov eax, 0
+    mov     edi, format
+    xor     eax, eax
+    call    printf
+    mov     eax, 0
     ret
 
 format:
-    .ascii "Hello, Holberton\n\0"
+    db      'Hello, Holberton', 10, 0
 
